@@ -1,0 +1,98 @@
+title: Rails cursus
+description: Welkom bij de Ruby on Rails cursus van Roy van der Meij.
+  Op deze website zal ik je leren te programmeren in Ruby en Ruby on Rails
+
+authors:
+  Documentation Team:
+    - name: Yehuda Katz
+      nick: wycats
+      description: Yehuda wrote the Rails guides gem.
+  Guides Designers:
+    - name: Jason Zimdars
+      nick: jz
+      description: Jason Zimdars is an experienced creative director and web designer who has lead UI and UX design for numerous websites and web applications. You can see more of his design and writing at <a href="http://www.thinkcage.com/">Thinkcage.com</a> or follow him on <a href="http://twitter.com/JZ">Twitter</a>
+
+index:
+  Introductie:
+    - title: Waarom Rails
+      url: why
+      text: "Waarom zou je kiezen voor Rails als ontwikkelplatform"
+      construction: true
+    - title: Rails is Agile
+      url: agile
+      text: "Rails is agile in hart en nieren en ik zal je leren waarom"
+      construction: true
+  Beginnen:
+    - title: Installatie van Ruby en Ruby on Rails
+      url: install
+      text: "Alles wat je moet weten voor het installeren van Rails"
+      construction: true
+    - title: Een app in 10 minuten
+      url: ten_minute_app
+      text: "Ik ga je laten zien hoe je een simpele blog kan maken in 10 minuten"
+      construction: true
+    - title: Architectuur van een Rails applicatie
+      url: architecture
+      text: "Rails is opgebouwd uit een aantal basis principen zoals MVC, DRY en Convention over Configration. Hier laat ik je zien wat dit inhoudt voor je als programmeur"
+      construction: true
+    - title: Introductie van Ruby
+      url: ruby
+      text: "Ruby is een dynamische open source programmeer taal met een focus op eenvoud en productiviteit. Het heeft een elegante syntax wat natuurlijk te lezen en makkelijk te schrijven"
+      construction: true
+  Het bouwen van een applicatie:
+    - title: Pizzeria applicatie
+      url: pizzeria_application
+      text: "De applicatie dat we gaan bouwen is een pizzeria website met administratie backend. Op de website kan een bezoeker pizza's bestellen en als bonus kan een bezoeker de ingredienten kiezen voor een gehele eigen pizza. Tevens komt er een backend waar de eigenaar van de webshop pizza's kan definieren en bij kan houden hoeveel omzet de eigenaar heeft gemaakt"
+      construction: true
+    - title: "Taak 1: Starten met de applicatie"
+      url: pizzeria_start
+      text: ""
+    - title: "Taak 2: Validaties en Unit Testing"
+      url: pizzeria_validations_and_unit_testing
+      text: ""
+    - title: "Taak 3: Pizza's weergeven"
+      url: pizzeria_showing_pizzas
+      text: ""
+    - title: "Taak 4: De winkelwagen"
+      url: pizzeria_shopping_cart
+      text: ""
+    - title: "Taak 5: Bestelling plaatsen"
+      url: pizzeria_place_order
+      text: ""
+    - title: "Taak 6: Versturen van emails"
+      url: pizzeria_sending_mail
+      text: ""
+    - title: "Taak 7: Inloggen"
+      url: pizzeria_logging_in
+      text: ""
+    - title: "Taak 8: Eigen pizza's maken"
+      url: pizzeria_custom_pizzas
+      text: ""
+    - title: "Taak 9: Applicatie live zetten"
+      url: pizzeria_deployment
+      text: ""
+  "Extra - Applicatie versnellen":
+    - title: "N+1 queries identificeren"
+      url: extra_n_plus_1_queries
+      text: ""
+    - title: Memcache
+      url: extra_memcache
+      text: ""
+    - title: "Bundelen van javascript en css"
+      url: extra_bundling_javascript_and_css
+      text: ""
+  "Extra - PDF Facturen":
+    - title: PDF maken 
+      url: extra_pdf_creating
+      text: ""
+    - title: Headers en footers
+      url: extra_pdf_headers_and_footers
+      text: ""
+  "Extra - Applicatie notificaties beheren":
+    - title: "Notificaties opslaan"
+      url: extra_notifications_save
+      text: ""
+  "Bonus":
+    - title: "Style Guide"
+      url: "style_guide"
+      text: "Hier staan de Ruby conventies voor de naamgevingen van klassen, methods en variabelen"
